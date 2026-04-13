@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "595436836039",
+    "firebase_url": "https://chinna-home-6mpu5u-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "chinna-home-6mpu5u",
+    "storage_bucket": "chinna-home-6mpu5u.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:595436836039:android:24aeb8ff634c7be0d65ae2",
+        "android_client_info": {
+          "package_name": "com.chinna.smart_hub"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBaBu0lBEpLlVj_oHbXu9Al3n_3VQxx3wY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

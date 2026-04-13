@@ -33,7 +33,7 @@ class DateContainer extends StatelessWidget {
           child: Center(
             child: Text(
               ' $date\n$day',
-              style: Theme.of(context).textTheme.headline2!.copyWith(
+              style: Theme.of(context).textTheme.headlineMedium!.copyWith(
                     color: active ? Colors.white : const Color(0xFFBDBDBD),
                   ),
             ),

@@ -21,7 +21,7 @@ class MoodToggleButtons extends StatelessWidget {
         children: [
           Text(
             'Mood',
-            style: Theme.of(context).textTheme.headline2,
+            style: Theme.of(context).textTheme.headlineMedium,
           ),
           SizedBox(
             height: getProportionateScreenHeight(9),

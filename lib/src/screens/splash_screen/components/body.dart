@@ -27,13 +27,13 @@ class Body extends StatelessWidget {
           ),
           Text(
             'Sweet & Smart Home',
-            style: Theme.of(context).textTheme.headline1!.copyWith(
+            style: Theme.of(context).textTheme.headlineLarge!.copyWith(
                   color: Colors.white,
                 ),
           ),
           Text(
             'Smart Home can change\nway you live in the future',
-            style: Theme.of(context).textTheme.headline3!.copyWith(
+            style: Theme.of(context).textTheme.headlineSmall!.copyWith(
                   color: const Color(0xFFBDBDBD),
                 ),
           ),
@@ -43,7 +43,7 @@ class Body extends StatelessWidget {
             },
             child: Text(
               'Get Started',
-              style: Theme.of(context).textTheme.headline2,
+              style: Theme.of(context).textTheme.headlineMedium,
             ),
             style: ElevatedButton.styleFrom(
               elevation: 0,

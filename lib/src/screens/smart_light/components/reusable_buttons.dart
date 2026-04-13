@@ -26,7 +26,7 @@ class ResuableButton extends StatelessWidget {
             ),
             child: Text(
               buttonText,
-              style: Theme.of(context).textTheme.headline2!.copyWith(
+              style: Theme.of(context).textTheme.headlineMedium!.copyWith(
                     color: Colors.white,
                   ),
             ),
@@ -42,7 +42,7 @@ class ResuableButton extends StatelessWidget {
             ),
             child: Text(
               buttonText,
-              style: Theme.of(context).textTheme.headline2,
+              style: Theme.of(context).textTheme.headlineMedium,
             ),
           );
   }

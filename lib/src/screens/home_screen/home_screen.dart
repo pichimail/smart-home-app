@@ -40,7 +40,7 @@ class HomeScreen extends StatelessWidget {
                     children: [
                       Text(
                         'Hi, Lex',
-                        style: Theme.of(context).textTheme.headline1,
+                        style: Theme.of(context).textTheme.headlineLarge,
                       ),
                       SizedBox(
                         width: getProportionateScreenWidth(60),
@@ -56,7 +56,7 @@ class HomeScreen extends StatelessWidget {
 
                         child: IconButton(
                           splashRadius: 25,
-                          icon: const Icon(
+                          icon: const FaIcon(
                             FontAwesomeIcons.solidUser,
                             color: Colors.amber,
                           ),
@@ -107,19 +107,19 @@ class HomeScreen extends StatelessWidget {
                         Tab(
                           child: Text(
                             'Living Room',
-                            style: Theme.of(context).textTheme.headline3,
+                            style: Theme.of(context).textTheme.headlineSmall,
                           ),
                         ),
                         Tab(
                           child: Text(
                             'Dining',
-                            style: Theme.of(context).textTheme.headline4,
+                            style: Theme.of(context).textTheme.titleLarge,
                           ),
                         ),
                         Tab(
                           child: Text(
                             'Kitchen',
-                            style: Theme.of(context).textTheme.headline4,
+                            style: Theme.of(context).textTheme.titleLarge,
                           ),
                         ),
                       ]),
@@ -141,7 +141,7 @@ class HomeScreen extends StatelessWidget {
                   Center(
                     child: Text(
                       'To be Built Soon',
-                      style: Theme.of(context).textTheme.headline3,
+                      style: Theme.of(context).textTheme.headlineSmall,
                     ),
                   ),
                   const Center(

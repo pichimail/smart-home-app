@@ -38,7 +38,7 @@ class _BodyState extends State<Body> {
               children: [
                 const Text(
                   'Edit Profile',
-                  // style: Theme.of(context).textTheme.headline1,
+                  // style: Theme.of(context).textTheme.headlineLarge,
                   style: TextStyle(fontSize: 35, fontWeight: FontWeight.bold),
                 ),
                 const Spacer(),
@@ -74,7 +74,7 @@ class _BodyState extends State<Body> {
                 children: [
                   const Text(
                     'Upload image',
-                    // style: Theme.of(context).textTheme.headline1,
+                    // style: Theme.of(context).textTheme.headlineLarge,
                     style: TextStyle(fontSize: 25, fontWeight: FontWeight.bold),
                   ),
                   SizedBox(

@@ -34,22 +34,22 @@ class WeatherContainer extends StatelessWidget {
                   children: [
                     Text(
                       '28°C',
-                      style: Theme.of(context).textTheme.headline1,
+                      style: Theme.of(context).textTheme.headlineLarge,
                     ),
                     Text(
                       'Cloudy',
-                      style: Theme.of(context).textTheme.headline1,
+                      style: Theme.of(context).textTheme.headlineLarge,
                     ),
                     SizedBox(
                       height: getProportionateScreenHeight(5),
                     ),
                     Text(
                       '27 Mar 2022',
-                      style: Theme.of(context).textTheme.headline5,
+                      style: Theme.of(context).textTheme.titleMedium,
                     ),
                     Text(
                       'Jagakarsa,Jakarta',
-                      style: Theme.of(context).textTheme.headline5,
+                      style: Theme.of(context).textTheme.titleMedium,
                     )
                   ],
                 ),

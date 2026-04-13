@@ -75,7 +75,7 @@ class FavouriteTile extends StatelessWidget {
                   Text(
                     device,
                     textAlign: TextAlign.left,
-                    style: Theme.of(context).textTheme.headline2!.copyWith(
+                    style: Theme.of(context).textTheme.headlineMedium!.copyWith(
                       color: Colors.black,
                       // color: itsOn ? Colors.white : Colors.black,
                     ),
@@ -141,7 +141,7 @@ class FavouriteTile extends StatelessWidget {
                   Text(
                     itsOn ? 'On' : 'Off',
                     textAlign: TextAlign.left,
-                    style: Theme.of(context).textTheme.headline2!.copyWith(
+                    style: Theme.of(context).textTheme.headlineMedium!.copyWith(
                       color: Colors.black,
                       // color: itsOn ? Colors.white : Colors.black,
                     ),

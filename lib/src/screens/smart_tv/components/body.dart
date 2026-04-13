@@ -58,7 +58,7 @@ class Body extends StatelessWidget {
                               'Living\nRoom',
                               style: Theme.of(context)
                                   .textTheme
-                                  .headline1!
+                                  .headlineLarge!
                                   .copyWith(
                                 fontSize: 45,
                                 color: const Color(0xFFBDBDBD)
@@ -67,7 +67,7 @@ class Body extends StatelessWidget {
                             ),
                             Text(
                               'Smart\nTv',
-                              style: Theme.of(context).textTheme.headline1,
+                              style: Theme.of(context).textTheme.headlineLarge,
                             ),
                           ],
                         ),
@@ -76,7 +76,7 @@ class Body extends StatelessWidget {
                         ),
                         Text(
                           'Power',
-                          style: Theme.of(context).textTheme.headline2,
+                          style: Theme.of(context).textTheme.headlineMedium,
                         ),
                         SizedBox(
                           height: getProportionateScreenHeight(4),

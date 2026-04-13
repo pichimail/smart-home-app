@@ -26,8 +26,8 @@ class Body extends StatelessWidget {
 				        crossAxisAlignment: CrossAxisAlignment.start,
 
 				      children: [
-				      	Text('SMART',style: Theme.of(context).textTheme.headline2!.copyWith(color: Colors.black, fontSize: 33),),
-					      Text('HOME', style:  Theme.of(context).textTheme.headline1!.copyWith(color: Colors.black, fontSize: 64),)
+				      	Text('SMART',style: Theme.of(context).textTheme.headlineMedium!.copyWith(color: Colors.black, fontSize: 33),),
+					      Text('HOME', style:  Theme.of(context).textTheme.headlineLarge!.copyWith(color: Colors.black, fontSize: 64),)
 				      ],
 		        )),
 	        ],
