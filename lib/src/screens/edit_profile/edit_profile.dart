@@ -1,4 +1,4 @@
-import 'package:domus/src/screens/edit_profile/components/body.dart';
+import 'package:chinna_smart_hub/src/screens/edit_profile/components/body.dart';
 import 'package:flutter/material.dart';
 
 class EditProfile extends StatelessWidget {

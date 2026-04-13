@@ -1,4 +1,4 @@
-import 'package:domus/src/models/color_model.dart';
+import 'package:chinna_smart_hub/src/models/color_model.dart';
 import 'package:flutter/material.dart';
 
 ///Constants for custom dialog widget

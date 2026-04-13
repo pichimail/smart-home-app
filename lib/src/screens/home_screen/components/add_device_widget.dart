@@ -1,4 +1,4 @@
-import 'package:domus/config/size_config.dart';
+import 'package:chinna_smart_hub/config/size_config.dart';
 import 'package:dotted_border/dotted_border.dart';
 import 'package:flutter/material.dart';
 

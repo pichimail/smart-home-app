@@ -1,4 +1,4 @@
-import 'package:domus/config/size_config.dart';
+import 'package:chinna_smart_hub/config/size_config.dart';
 import 'package:flutter/material.dart';
 
 class ConnectSpeaker extends StatelessWidget {

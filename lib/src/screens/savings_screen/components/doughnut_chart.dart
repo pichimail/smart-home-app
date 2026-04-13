@@ -1,5 +1,5 @@
-import 'package:domus/config/size_config.dart';
-import 'package:domus/src/screens/savings_screen/components/chart_data.dart';
+import 'package:chinna_smart_hub/config/size_config.dart';
+import 'package:chinna_smart_hub/src/screens/savings_screen/components/chart_data.dart';
 import 'package:flutter/material.dart';
 import 'package:awesome_circular_chart/awesome_circular_chart.dart';
 

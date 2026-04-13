@@ -1,14 +1,14 @@
-import 'package:domus/config/size_config.dart';
-import 'package:domus/src/screens/home_screen/components/music_widget.dart';
-import 'package:domus/src/screens/home_screen/components/savings_container.dart';
-import 'package:domus/src/screens/home_screen/components/weather_container.dart';
-import 'package:domus/src/screens/set_event_screen/set_event_screen.dart';
-import 'package:domus/src/screens/smart_ac/smart_ac.dart';
-import 'package:domus/src/screens/smart_fan/smart_fan.dart';
-import 'package:domus/src/screens/smart_light/smart_light.dart';
-import 'package:domus/src/screens/smart_speaker/smart_speaker.dart';
-import 'package:domus/view/home_screen_view_model.dart';
-import 'package:domus/src/screens/smart_tv/smart_tv.dart';
+import 'package:chinna_smart_hub/config/size_config.dart';
+import 'package:chinna_smart_hub/src/screens/home_screen/components/music_widget.dart';
+import 'package:chinna_smart_hub/src/screens/home_screen/components/savings_container.dart';
+import 'package:chinna_smart_hub/src/screens/home_screen/components/weather_container.dart';
+import 'package:chinna_smart_hub/src/screens/set_event_screen/set_event_screen.dart';
+import 'package:chinna_smart_hub/src/screens/smart_ac/smart_ac.dart';
+import 'package:chinna_smart_hub/src/screens/smart_fan/smart_fan.dart';
+import 'package:chinna_smart_hub/src/screens/smart_light/smart_light.dart';
+import 'package:chinna_smart_hub/src/screens/smart_speaker/smart_speaker.dart';
+import 'package:chinna_smart_hub/view/home_screen_view_model.dart';
+import 'package:chinna_smart_hub/src/screens/smart_tv/smart_tv.dart';
 import 'package:flutter/material.dart';
 
 import 'add_device_widget.dart';

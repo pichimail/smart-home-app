@@ -1,8 +1,8 @@
-import 'package:domus/config/size_config.dart';
-import 'package:domus/src/screens/smart_light/components/date_container.dart';
-import 'package:domus/src/screens/smart_light/components/reusable_buttons.dart';
-import 'package:domus/src/screens/smart_light/components/time_container.dart';
-import 'package:domus/view/smart_light_view_model.dart';
+import 'package:chinna_smart_hub/config/size_config.dart';
+import 'package:chinna_smart_hub/src/screens/smart_light/components/date_container.dart';
+import 'package:chinna_smart_hub/src/screens/smart_light/components/reusable_buttons.dart';
+import 'package:chinna_smart_hub/src/screens/smart_light/components/time_container.dart';
+import 'package:chinna_smart_hub/view/smart_light_view_model.dart';
 import 'package:flutter/material.dart';
 
 import 'advance_setting_container.dart';

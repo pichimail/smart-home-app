@@ -1,4 +1,5 @@
-import 'package:domus/provider/base_model.dart';
+import '../functions.dart';
+import 'package:chinna_smart_hub/provider/base_model.dart';
 import 'package:sliding_up_panel/sliding_up_panel.dart';
 
 class SmartACViewModel extends BaseModel {
@@ -8,8 +9,9 @@ class SmartACViewModel extends BaseModel {
   final List<bool> isSelected = [true, false, false, false];
   double timerHours = 8;
 
-  void acSwitch(bool value) {
+  void acSwitch(bool value) async {
     isACon = value;
+    await toggleDevice('/devices/master/ac', value);
     notifyListeners();
   }
 

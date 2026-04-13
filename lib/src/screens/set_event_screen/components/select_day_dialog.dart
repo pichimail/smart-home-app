@@ -1,5 +1,5 @@
-import 'package:domus/popups/popup_warning.dart';
-import 'package:domus/popups/popup_widgets.dart';
+import 'package:chinna_smart_hub/popups/popup_warning.dart';
+import 'package:chinna_smart_hub/popups/popup_widgets.dart';
 import 'package:flutter/material.dart';
 
 class SelectDayDialog extends StatelessWidget {

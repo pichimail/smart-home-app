@@ -1,5 +1,6 @@
 import 'dart:ui';
-import 'package:domus/provider/base_model.dart';
+import '../functions.dart';
+import 'package:chinna_smart_hub/provider/base_model.dart';
 import 'package:sliding_up_panel/sliding_up_panel.dart';
 
 class SmartFanViewModel extends BaseModel {
@@ -16,8 +17,9 @@ class SmartFanViewModel extends BaseModel {
   Color lightColor = const Color(0xFF7054FF);
   String fanImage = 'assets/images/fan.png';
 
-  void fanSwitch(bool value) {
+  void fanSwitch(bool value) async {
     isFanOff = value;
+    await toggleDevice('/devices/master/fan', !value);
     notifyListeners();
   }
 

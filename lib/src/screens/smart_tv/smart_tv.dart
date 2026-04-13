@@ -1,8 +1,8 @@
-import 'package:domus/provider/base_view.dart';
+import 'package:chinna_smart_hub/provider/base_view.dart';
 import 'package:flutter/material.dart';
 import 'package:sliding_up_panel/sliding_up_panel.dart';
-import 'package:domus/src/screens/smart_tv/components/expandable_bottom_sheet.dart';
-import 'package:domus/view/smart_tv_view_model.dart';
+import 'package:chinna_smart_hub/src/screens/smart_tv/components/expandable_bottom_sheet.dart';
+import 'package:chinna_smart_hub/view/smart_tv_view_model.dart';
 import 'components/body.dart';
 
 class SmartTV extends StatelessWidget {

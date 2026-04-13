@@ -1,4 +1,5 @@
-import 'package:domus/provider/base_model.dart';
+import '../functions.dart';
+import 'package:chinna_smart_hub/provider/base_model.dart';
 import 'package:sliding_up_panel/sliding_up_panel.dart';
 
 class SmartSpeakerViewModel extends BaseModel {
@@ -6,8 +7,9 @@ class SmartSpeakerViewModel extends BaseModel {
   bool isSpeakeron = true;
   double speakerVolume = 65;
 
-  void speakerSwitch(bool value) {
+  void speakerSwitch(bool value) async {
     isSpeakeron = value;
+    await toggleDevice('/devices/master/speaker', value);
     notifyListeners();
   }
 

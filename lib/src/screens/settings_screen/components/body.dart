@@ -26,7 +26,7 @@ class _SwitchTilesState extends State<SwitchTiles> {
             SwitchListTile(
               activeTrackColor:const  Color.fromRGBO(61, 213, 152, 1),
               inactiveTrackColor:const  Color.fromRGBO(210, 210, 210, 1),
-              activeColor: const Color.fromRGBO(70, 70, 70, 1),
+              activeThumbColor: const Color.fromRGBO(70, 70, 70, 1),
               inactiveThumbColor:const  Color.fromRGBO(70, 70, 70, 1),
               value: givenValue,
               secondary: Image.asset('assets/images/settings/star.png'),
@@ -41,7 +41,7 @@ class _SwitchTilesState extends State<SwitchTiles> {
               selected: true,
               activeTrackColor:const  Color.fromRGBO(61, 213, 152, 1),
               inactiveTrackColor:const  Color.fromRGBO(210, 210, 210, 1),
-              activeColor:const  Color.fromRGBO(70, 70, 70, 1),
+              activeThumbColor:const  Color.fromRGBO(70, 70, 70, 1),
               inactiveThumbColor:const  Color.fromRGBO(70, 70, 70, 1),
               value: givenValue,
               secondary: Image.asset('assets/images/settings/chat.png'),
@@ -55,7 +55,7 @@ class _SwitchTilesState extends State<SwitchTiles> {
             SwitchListTile(
               activeTrackColor: const Color.fromRGBO(61, 213, 152, 1),
               inactiveTrackColor: const Color.fromRGBO(210, 210, 210, 1),
-              activeColor:const  Color.fromRGBO(70, 70, 70, 1),
+              activeThumbColor:const  Color.fromRGBO(70, 70, 70, 1),
               inactiveThumbColor:const  Color.fromRGBO(70, 70, 70, 1),
               value: givenValue,
               secondary: Image.asset('assets/images/settings/bell.png'),

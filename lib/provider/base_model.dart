@@ -1,5 +1,5 @@
-import 'package:domus/enum/view_state.dart';
-import 'package:domus/service/navigation_service.dart';
+import 'package:chinna_smart_hub/enum/view_state.dart';
+import 'package:chinna_smart_hub/service/navigation_service.dart';
 import 'package:flutter/material.dart';
 import 'getit.dart';
 

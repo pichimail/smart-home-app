@@ -1,8 +1,7 @@
-import 'package:domus/provider/getit.dart';
-import 'package:domus/routes/routes.dart';
-import 'package:domus/service/navigation_service.dart';
-// import 'package:domus/src/screens/about_screen/about_us_screen.dart';
-import 'package:domus/src/screens/splash_screen/splash_screen.dart';
+import 'package:chinna_smart_hub/provider/getit.dart';
+import 'package:chinna_smart_hub/routes/routes.dart';
+import 'package:chinna_smart_hub/service/navigation_service.dart';
+// import 'package:chinna_smart_hub/src/screens/about_screen/about_us_screen.dart';
 import 'package:flutter/material.dart';
 
 void main() async {
@@ -17,7 +16,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Domus',
+      title: 'Chinna Smart Hub',
       navigatorKey: getIt<NavigationService>().navigatorKey,
       debugShowCheckedModeBanner: false,
       themeMode: themeMode,
@@ -32,47 +31,45 @@ class MyApp extends StatelessWidget {
           primary: Color(0xFFF2F2F2),
           //secondary: Color(0xFFF4AE47),
           surface: Color(0xFFC4C4C4),
-          background: Color(0xFFFFFFFF),
           error: Color(0xFFB00020),
           onPrimary: Colors.white,
           onSecondary: Colors.white,
           onSurface: Colors.black,
-          onBackground: Colors.black,
           onError: Colors.white,
           brightness: Brightness.light,
         ),
         textTheme: const TextTheme(
-          headline1: TextStyle(
+          displayLarge: TextStyle(
             fontStyle: FontStyle.normal,
             fontWeight: FontWeight.bold,
             fontSize: 32,
             color: Color(0xFF464646),
           ),
-          headline2: TextStyle(
+          displayMedium: TextStyle(
             fontStyle: FontStyle.normal,
             fontWeight: FontWeight.w700,
             fontSize: 18,
             color: Color(0xFF464646),
           ),
-          headline3: TextStyle(
+          displaySmall: TextStyle(
             fontStyle: FontStyle.normal,
             fontWeight: FontWeight.w400,
             fontSize: 18,
             color: Color(0xFF464646),
           ),
-          headline4: TextStyle(
+          headlineMedium: TextStyle(
             fontStyle: FontStyle.normal,
             fontWeight: FontWeight.w400,
             fontSize: 18,
             color: Color(0xFFBDBDBD),
           ),
-          headline5: TextStyle(
+          headlineSmall: TextStyle(
             fontStyle: FontStyle.normal,
             fontWeight: FontWeight.w400,
             fontSize: 12,
             color: Color(0xFFBDBDBD),
           ),
-          headline6: TextStyle(
+          titleLarge: TextStyle(
             fontStyle: FontStyle.normal,
             fontWeight: FontWeight.w400,
             fontSize: 14,
@@ -80,8 +77,8 @@ class MyApp extends StatelessWidget {
           ),
         ),
       ),
+      initialRoute: '/login',
       routes: routes,
-      home: const SplashScreen(),
     );
   }
 }

@@ -1,7 +1,8 @@
-import 'package:domus/provider/base_model.dart';
+import '../functions.dart';
+import 'package:chinna_smart_hub/provider/base_model.dart';
 import 'package:sliding_up_panel/sliding_up_panel.dart';
 import 'package:flutter/material.dart';
-import 'package:domus/src/screens/my_list_screen/my_list_screen.dart';
+import 'package:chinna_smart_hub/src/screens/my_list_screen/my_list_screen.dart';
 
 
 class SmartTvViewModel extends BaseModel {
@@ -14,8 +15,9 @@ class SmartTvViewModel extends BaseModel {
   int selectedIndex = 0;
   String lightImage = 'assets/images/tv.png';
 
-  void tvSwitch(bool value) {
+  void tvSwitch(bool value) async {
     isTvOff = value;
+    await toggleDevice('/devices/living/tv', !value);
     notifyListeners();
   }
 

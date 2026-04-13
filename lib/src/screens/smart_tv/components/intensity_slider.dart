@@ -1,6 +1,6 @@
-import 'package:domus/config/size_config.dart';
+import 'package:chinna_smart_hub/config/size_config.dart';
 import 'package:flutter/material.dart';
-import 'package:domus/view/smart_tv_view_model.dart';
+import 'package:chinna_smart_hub/view/smart_tv_view_model.dart';
 
 class Intensity extends StatelessWidget {
   const Intensity({Key? key, required this.model})

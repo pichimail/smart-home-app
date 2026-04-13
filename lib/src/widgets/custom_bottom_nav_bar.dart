@@ -1,4 +1,4 @@
-import 'package:domus/view/home_screen_view_model.dart';
+import 'package:chinna_smart_hub/view/home_screen_view_model.dart';
 import 'package:flutter/material.dart';
 
 class CustomBottomNavBar extends StatelessWidget {

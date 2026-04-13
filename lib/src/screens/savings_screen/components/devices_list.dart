@@ -1,5 +1,5 @@
 
-import 'package:domus/src/screens/savings_screen/components/chart_data.dart';
+import 'package:chinna_smart_hub/src/screens/savings_screen/components/chart_data.dart';
 import 'package:flutter/material.dart';
 
 

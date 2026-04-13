@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:domus/config/size_config.dart';
-import 'package:domus/src/screens/menu_page/components/menu_list.dart';
+import 'package:chinna_smart_hub/config/size_config.dart';
+import 'package:chinna_smart_hub/src/screens/menu_page/components/menu_list.dart';
 
 class Body extends StatelessWidget {
   const Body({Key? key}) : super(key: key);
