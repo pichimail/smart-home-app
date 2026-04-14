@@ -31,7 +31,7 @@ class _FavouritesState extends State<Favourites> {
             children: [
               Text(
                 'Favourites',
-                style: Theme.of(context).textTheme.headlineLarge,
+                style: Theme.of(context).textTheme.displayLarge,
               ),
               Container(
                 width: 50,

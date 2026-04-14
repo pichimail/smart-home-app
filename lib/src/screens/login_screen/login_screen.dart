@@ -1,3 +1,4 @@
+import 'package:chinna_smart_hub/config/size_config.dart';
 import 'package:chinna_smart_hub/src/screens/login_screen/components/body.dart';
 import 'package:flutter/material.dart';
 
@@ -7,7 +8,9 @@ class LoginScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Scaffold(
+    SizeConfig.init(context);
+
+    return Scaffold(
       resizeToAvoidBottomInset: false,
       body: Body(),
     );
